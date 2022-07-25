@@ -1,0 +1,62 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.cabecalho__principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+.cabecalho__principal--logo {
+    margin-top: 8px;
+}
+
+.cabecalho__principal--lista {
+    display: flex;
+    margin-left: 50px;
+}
+
+.cabecalho__princiapl--item {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.item-arrow {
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
+
+/* LOGIN */
+
+.cabecalho__login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho__login--lista {
+    display: flex;
+    margin-right: 100px;
+}
+
+.cabecalho__login--item {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.item-login {
+    padding-top: 15px;
+}
+
+.item-register {
+    border: 1px solid var(--cinza);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+
