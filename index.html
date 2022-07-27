@@ -17,17 +17,28 @@
         <div class="cabecalho__principal">
             <img src="images/logo.svg" alt="Logo da marca" class="cabecalho__principal--logo">
             <ul class="cabecalho__principal--lista">
-                <li class="cabecalho__principal--item">
-                    <a href="">Features <img src="images/icon-arrow-down.svg" alt="abrir seção" class="item-arrow"></a>
+                <li class="cabecalho__principal--item item__menu-dropdown">
+                    <a class="item__link" href="#">Features<img src="images/icon-arrow-down.svg" alt="abrir seção" class="item-arrow"></a>
+                    <ul>
+                        <li><img src="images/icon-todo.svg" alt="icone"><a href="#">Todo List</a></li>
+                        <li><img src="images/icon-calendar.svg" alt="icone"><a href="#">Calendar</a></li>
+                        <li><img src="images/icon-reminders.svg" alt="icone"><a href="#">Reminders</a></li>
+                        <li><img src="images/icon-planning.svg" alt="icone"><a href="#">Planning</a></li>
+                    </ul>
+                </li>
+                <li class="cabecalho__principal--item item__menu-dropdown item__menu-dropdown2">
+                    <a class="item__link" href="#">Company <img src="images/icon-arrow-down.svg" alt="abrir seção" class="item-arrow"></a>
+                    <ul>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
                 </li>
                 <li class="cabecalho__principal--item">
-                    <a href="">Company <img src="images/icon-arrow-down.svg" alt="abrir seção" class="item-arrow"></a>
+                    <a class="item__link" href="#">Careers</a>
                 </li>
                 <li class="cabecalho__principal--item">
-                    <a href="">Careers</a>
-                </li>
-                <li class="cabecalho__principal--item">
-                    <a href="">About</a>
+                    <a class="item__link" href="#">About</a>
                 </li>
             </ul>
         </div>
@@ -35,10 +46,10 @@
         <div class="cabecalho__login">
             <ul class="cabecalho__login--lista">
                 <li class="cabecalho__login--item item-login">
-                    <a href="">Login</a>
+                    <a class="item__link" href="#">Login</a>
                 </li>
                 <li class="cabecalho__login--item item-register">
-                    <a href="">Register</a>
+                    <a class="item__link" href="#">Register</a>
                 </li>
         </div>
     </header>

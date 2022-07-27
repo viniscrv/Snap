@@ -5,6 +5,7 @@
     --preto: #000000;
     --branco: #FFFFFF;
     --cinza: #797676;
+    --background-padrao: #f1efef;
     --fonte-padrao: 'Poppins';
 }
 
@@ -12,4 +13,5 @@
     font-family: var(--fonte-padrao), sans-serif;;
     text-decoration: none;
     color: var(--cinza);
+    background-color: var(--background-padrao);
 }
